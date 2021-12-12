@@ -66,6 +66,7 @@ function onSubmitForm(e) {
 function onLoadMore() {
     newsApiService.fetchImages().then(renderImagesPreview);
 }
+ 
 
 function onPhotoClick(e) {
     e.preventDefault();
